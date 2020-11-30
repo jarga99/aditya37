@@ -7,4 +7,5 @@
 ![Aditya's github stats](https://github-readme-stats.vercel.app/api?username=aditya37&theme=dark&show_icons=true)
 
 [telegram]:https://telegram.me/aditya_rahman09
-[instagram]: https://www.instagram.com/s_sabesan
+[instagram]: https://www.instagram.com/adit_rahman909
+
