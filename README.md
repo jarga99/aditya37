@@ -1,1 +1,1 @@
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=aditya37)
+![Aditya's github stats](https://github-readme-stats.vercel.app/api?username=aditya37)
