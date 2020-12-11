@@ -1,0 +1,267 @@
+/* Area Navbar */
+/* Font yang tersedia */
+
+/*  - 'Open Sans'
+    - 'Raleway' */
+
+/* pengaturan Body */
+body{
+    background: white;
+}
+/* Mengatur navbar */
+.navbar{
+    position: relative;
+    z-index: 1;
+}
+/* mengatur .navbar-brand */
+.navbar-brand{
+font-family: 'Viga', sans-serif;
+font-weight: 600;
+text-transform: uppercase;
+}
+/* mengatur text navbar-brand */
+.navbar-brand span{
+    color: rgb(8, 239, 255);
+}
+
+/* mengatur style font .navbar-nav */
+.navbar-nav{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* mengatur jarak antar nav-item */
+.nav-item{
+    margin-right: 15px;
+}
+/* mengatur navbar tonggle */
+.navbar-toggler{
+    background: rgba(248, 222, 222, 0.548);
+}
+
+
+/* UTILITY */
+/* template tombol */
+.tombol{
+    text-transform: uppercase;
+    border-radius: 50px;
+    width: 60%;
+    margin: auto;
+}
+/* Template Judul*/
+
+
+/*PENGATURAN JUMBOTRON */
+.jumbotron{
+    background-image: url(bg/bg_landing.jpg);
+    background-size: cover;
+    height: 540px;
+    text-align: center;
+    position: relative;
+}
+.jumbotron::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0) );
+    position: absolute;
+    bottom: 0;
+     
+}
+.jumbotron .container{
+    position: relative;
+    z-index: 1;
+}
+.jumbotron h3 {
+    color: snow;
+    font-family:'Open Sans', sans-serif;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    margin-top: 150px;
+}
+.jumbotron h3 span{
+    font-weight: bold;
+    color: rgb(0, 159, 233);
+}
+
+
+/* gird */
+.gird{
+    background-size: cover;
+    background: mediumseagreen;
+    height: 110px;
+    margin-top: -32px;
+    
+}
+/* Mengatur Area Card */
+
+.container .card{
+    margin: auto;
+    margin-top: -56px;
+    margin-bottom: 80px !important;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    }
+    
+    .card-header{
+    text-align: center;
+    font-size: 20px;
+    }
+    
+    .card-body{
+    background-color: mintcream;
+    color: rgb(48, 48, 48);
+    margin: 0 2px 5px 2px ;
+    }
+
+    /* news setting area */
+.news{
+    display: block;
+    background:mintcream;
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Info Setting Area*/
+.info{
+background-color:whitesmoke;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+
+}
+/* pengaturan info header */
+
+.info-header{
+background:whitesmoke;
+font-family: 'Viga', sans-serif;
+color: rgb(61, 61, 61);
+text-transform: uppercase;
+text-align: center;
+text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+/* pengaturan info body */
+.info-body{
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.imgInfo{
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: 20px;
+margin-right: 10px;
+}
+.imgInfo img{
+    border: 5px solid rgb(0, 159, 233);
+    border-radius: 8px;
+    min-width: 20rem;
+    margin: auto;
+}
+.keterangan{
+margin: auto;
+background:whitesmoke;
+border-radius: 8px;
+
+}
+.keterangan p a{
+    border-radius: 25px;
+    text-transform: capitalize;
+}
+
+/* Pengaturan Area Footer */
+.footer{
+    position: relative;
+    display: block;
+    background: teal;
+    background-size: cover;
+    height: 300px;
+}
+
+
+/* SPESIFIK SMARTPHONE VERSION */
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    /* mengatur navbar */
+    .navbar {
+        background: rgb(100, 113, 124);
+    }
+    /* mengatur apa yang ada di jumbotron */
+
+    .jumbotron h3 {
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .tombol{
+        margin-top: 25px;
+    }
+    .card .container{
+        margin-bottom: 20px;
+    }
+ }
+
+ /*SPESIFIK TABLET & NOTEBOOK VERSION*/
+/* Medium devices (tablets, 768px and up) */
+
+ @media (min-width: 768px) { 
+    .navbar {
+        background:slategray;
+    } 
+    .jumbotron h3 {
+        font-size: 35px;
+        font-weight: 500;
+    }
+    
+    .jumbotron a{
+        margin-top: 25px;
+    } 
+
+
+}
+
+/* DESKTOP VERSION */
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+/* Area Pengaturan bagian navbar */
+
+/* mengatur navbar */
+.navbar{
+        background: transparent;
+    }
+
+.navbar-brand, .nav-link {
+    color: cornsilk !important;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+/* mengatur style font .navbar-nav */
+.navbar-nav{
+    font-family: 'Open Sans' sans-serif;
+    text-transform: uppercase;
+    }
+.nav-link:hover::after{
+    content: '';
+    display: block;
+    border-bottom:  3px solid #3027af ;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+/* Mengatur Tombol */ 
+.tombol{
+    width: auto;
+}
+
+/* Mengatur Apa yang ada di dalam Jumbotron */
+/* Mengatur jumbotron */
+.jumbotron{
+    margin-top: -75px;
+    height: 640px;
+}
+
+.jumbotron h3 {
+    font-size: 50px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
+}
+
+ }
+
