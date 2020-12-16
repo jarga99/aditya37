@@ -208,12 +208,83 @@ border-radius: 8px;
 
 /* Pengaturan Area Footer */
 .footer{
-    position: relative;
-    display: block;
-    background: teal;
-    background-size: cover;
+    position: absolute;
+    background: rgb(0, 63, 71);
     height: 300px;
+    width: 100%;
+    display: flex;
+
 }
+/* =============== */
+.footer .profil{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(0, 255, 179);
+    text-transform: uppercase;
+    
+}
+.footer .profil a{
+    color: rgb(2, 255, 171);
+}
+.footer .profil .list-group{
+    text-align: start;
+    color: rgb(0, 204, 255);
+    text-transform: capitalize;
+}
+/* =============== */
+.footer .berita{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(0, 255, 179);
+    text-transform: uppercase;
+}
+.footer .berita a{
+    color: rgb(2, 255, 171);
+}
+.footer .berita .list-group{
+    text-align: center;
+    color: rgb(0, 204, 255);
+    text-transform: capitalize;
+}
+/* ================ */
+.footer .contact{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(0, 255, 179);
+    text-transform: uppercase;
+}
+.footer .contact a{
+    color: rgb(2, 255, 171);
+}
+.footer .contact .list-group{
+    text-align: end;
+    color: rgb(0, 204, 255);
+    text-transform: capitalize;
+}
+/* <<<<<<<<<<>>>>>>>>>> */
+.copyright {
+    position: relative;
+    display: flex;
+    top: 250px;
+    color: rgb(9, 132, 255);
+    background: rgb(2, 73, 67);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 50px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+/* ---=========--- */
 
 /* css profil.php area */
 /* area tentang */
@@ -225,6 +296,7 @@ border-radius: 8px;
     
 }   
     .tentang-judul h4{
+        font-size: 50px;
         color: azure;
         text-transform: uppercase;
         text-align: center;

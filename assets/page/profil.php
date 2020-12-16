@@ -6,7 +6,7 @@ include_once 'navigasi-profil.php';
 <div class="tentang">
     <div class="container">
         <div class="tentang-judul">
-            <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+            <h4>sambutan kepala sekolah</h4>
         </div>
         <div class="row">
             <div class="tentang-img col">
