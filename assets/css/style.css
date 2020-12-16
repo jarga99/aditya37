@@ -4,9 +4,44 @@
 /*  - 'Open Sans'
     - 'Raleway' */
 
+
+/* CSS BOX SHADOW ONLY ONE AREA */
+/* .top{
+    box-shadow: 0 -5px 5px -5px #333;
+}
+
+.right {
+    box-shadow: 5px 0 5px -5px #333;
+}
+
+.bottom {
+    box-shadow: 0 5px 5px -5px #333;
+}
+
+.left {
+    box-shadow: -5px 0 5px -5px #333;
+} */
+
+/* Pengaturan Spinner loading page */
+/* Paste this css to your style sheet file or under head tag */
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(./gift/Preloader_3.gif) center no-repeat #fff;
+}
+
 /* pengaturan Body */
 body{
     background: white;
+    position: relative;
 }
 /* Mengatur navbar */
 .navbar{
@@ -22,6 +57,15 @@ text-transform: uppercase;
 /* mengatur text navbar-brand */
 .navbar-brand span{
     color: rgb(8, 239, 255);
+}
+
+/* mengatur navbar pada halaman profil */
+.navbar-brand img{
+    border: 3px solid rgb(111, 0, 255);
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px red;
+    width: 40px;
+    height: 40px;
 }
 
 /* mengatur style font .navbar-nav */
@@ -52,12 +96,14 @@ text-transform: uppercase;
 
 /*PENGATURAN JUMBOTRON */
 .jumbotron{
-    background-image: url(bg/bg_landing.jpg);
+    background-image: url(./bg/bg_landing.jpg);
     background-size: cover;
     height: 540px;
     text-align: center;
     position: relative;
 }
+
+/* membuat efek grafient sadhow pada jumbotron */
 .jumbotron::after{
     content: '';
     display: block;
@@ -84,18 +130,17 @@ text-transform: uppercase;
     color: rgb(0, 159, 233);
 }
 
-
-/* gird */
-.gird{
+/* background gird */
+.gird-artikel{
     background-size: cover;
     background: mediumseagreen;
-    height: 110px;
     margin-top: -32px;
+    height: 100px;
     
 }
 /* Mengatur Area Card */
 
-.container .card{
+ .container .card{
     margin: auto;
     margin-top: -56px;
     margin-bottom: 80px !important;
@@ -112,15 +157,6 @@ text-transform: uppercase;
     color: rgb(48, 48, 48);
     margin: 0 2px 5px 2px ;
     }
-
-    /* news setting area */
-.news{
-    display: block;
-    background:mintcream;
-    background-size: cover;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
 
 /* Info Setting Area*/
 .info{
@@ -139,7 +175,8 @@ text-transform: uppercase;
 text-align: center;
 text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
 }
-/* pengaturan info body */
+
+/* pengaturan info body pada home/ profil depan*/
 .info-body{
     background-color: white;
     border-top-left-radius: 10px;
@@ -163,6 +200,7 @@ background:whitesmoke;
 border-radius: 8px;
 
 }
+
 .keterangan p a{
     border-radius: 25px;
     text-transform: capitalize;
@@ -177,6 +215,132 @@ border-radius: 8px;
     height: 300px;
 }
 
+/* css profil.php area */
+/* area tentang */
+.tentang{
+    justify-content: space-between;
+    display: flex;
+    background: rgb(33, 33, 48);
+    margin: auto;
+    
+}   
+    .tentang-judul h4{
+        color: azure;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    }
+    .tentang-img img{
+    top: auto;
+    margin-bottom: 40px;
+    min-width: 25rem;
+    border: 2px solid aqua;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(136, 201, 255, 0.733);
+
+}
+.tentang-txt{
+    top: auto;
+    background: rgba(155, 190, 255, 0.781);
+    color: rgb(43, 43, 43);
+    min-width: 25rem;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    border: 2px solid aqua;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 2px 2px 5px steelblue;
+    
+}
+/* css daftar-guru.php */
+/* area listGuru */
+
+.listGuru{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(36, 75, 85);
+}
+
+.list-judul{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.list-judul h2, h3{
+    color: rgb(215, 225, 255);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgb(8, 239, 255);
+}
+.profil-guru{
+    display: block;
+    margin: auto;
+}
+.list-body{
+    background: rgb(136, 217, 255);
+    max-width: 20rem;
+    border-radius: 15px;
+}
+.list-body img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}    
+.list-text{
+    margin: 10px 10px 10px 10px;
+}
+
+/* css kontak kami pada profil page */
+/* area kontak */
+.kontak{
+    background: #0c192b;
+    display: flex;
+    text-align: center;
+
+}
+.kontak-header h2{
+    color: rgb(8, 255, 132);
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px rgb(2, 255, 57);
+    margin: 50px 0 50px 0;
+}
+.kontak-body{
+max-width: 15rem;
+margin: auto;
+}
+.kontak-body img{
+    border: 3px solid #076eff;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px 0 #00c3ff;
+    margin-bottom: 20px;
+}
+.kontak-teks{
+    border: 3px solid rgb(0, 255, 242);
+    margin-bottom: 40px;
+    border-radius: 25px;
+    padding: -5px;
+}
+.kontak-teks h4{
+    color: rgb(248, 199, 2);
+    margin-top: 10px;
+}
+.kontak-teks p{
+    color: rgb(250, 220, 102);
+}
+
+
+/* css halaman berita */
+/* area sidebar */
 
 /* SPESIFIK SMARTPHONE VERSION */
 /* Small devices (landscape phones, less than 768px) */
@@ -214,7 +378,6 @@ border-radius: 8px;
     .jumbotron a{
         margin-top: 25px;
     } 
-
 
 }
 
