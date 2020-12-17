@@ -14,7 +14,7 @@
                     <a class="nav-item nav-link active " href="../../index.php"> Home </a>
                     <a class="nav-item nav-link" href="../page/profil.php">Profil</a>
                     <a class="nav-item nav-link" href="profil.php"> berita </a>
-                    <a class="nav-item nav-link" href="../page/daftar-guru.php">artikel </a>
+                    <!-- <a class="nav-item nav-link" href="../page/daftar-guru.php">artikel </a> -->
                     </a>
                 </div>
             </div>

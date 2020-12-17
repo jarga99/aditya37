@@ -1,11 +1,16 @@
 /* Area Navbar */
+
+
 /* Font yang tersedia */
+
 
 /*  - 'Open Sans'
     - 'Raleway' */
 
 
 /* CSS BOX SHADOW ONLY ONE AREA */
+
+
 /* .top{
     box-shadow: 0 -5px 5px -5px #333;
 }
@@ -22,45 +27,73 @@
     box-shadow: -5px 0 5px -5px #333;
 } */
 
+
 /* Pengaturan Spinner loading page */
+
+
 /* Paste this css to your style sheet file or under head tag */
+
+
 /* This only works with JavaScript, 
 if it's not present, don't show loader */
-.no-js #loader { display: none;  }
-.js #loader { display: block; position: absolute; left: 100px; top: 0; }
-.se-pre-con {
-	position: fixed;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	z-index: 9999;
-	background: url(./gift/Preloader_3.gif) center no-repeat #fff;
+
+.no-js #loader {
+    display: none;
 }
 
+.js #loader {
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 0;
+}
+
+.se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(./gift/Preloader_3.gif) center no-repeat #fff;
+}
+
+
 /* pengaturan Body */
-body{
+
+body {
     background: white;
     position: relative;
 }
+
+
 /* Mengatur navbar */
-.navbar{
+
+.navbar {
     position: relative;
     z-index: 1;
 }
+
+
 /* mengatur .navbar-brand */
-.navbar-brand{
-font-family: 'Viga', sans-serif;
-font-weight: 600;
-text-transform: uppercase;
+
+.navbar-brand {
+    font-family: 'Viga', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
 }
+
+
 /* mengatur text navbar-brand */
-.navbar-brand span{
+
+.navbar-brand span {
     color: rgb(8, 239, 255);
 }
 
+
 /* mengatur navbar pada halaman profil */
-.navbar-brand img{
+
+.navbar-brand img {
     border: 3px solid rgb(111, 0, 255);
     border-radius: 50%;
     box-shadow: 1px 1px 2px red;
@@ -68,34 +101,47 @@ text-transform: uppercase;
     height: 40px;
 }
 
+
 /* mengatur style font .navbar-nav */
-.navbar-nav{
+
+.navbar-nav {
     font-family: 'Open Sans', sans-serif;
 }
 
+
 /* mengatur jarak antar nav-item */
-.nav-item{
+
+.nav-item {
     margin-right: 15px;
 }
+
+
 /* mengatur navbar tonggle */
-.navbar-toggler{
+
+.navbar-toggler {
     background: rgba(248, 222, 222, 0.548);
 }
 
 
 /* UTILITY */
+
+
 /* template tombol */
-.tombol{
+
+.tombol {
     text-transform: uppercase;
     border-radius: 50px;
     width: 60%;
     margin: auto;
 }
+
+
 /* Template Judul*/
 
 
 /*PENGATURAN JUMBOTRON */
-.jumbotron{
+
+.jumbotron {
     background-image: url(./bg/bg_landing.jpg);
     background-size: cover;
     height: 540px;
@@ -103,138 +149,138 @@ text-transform: uppercase;
     position: relative;
 }
 
+
 /* membuat efek grafient sadhow pada jumbotron */
-.jumbotron::after{
+
+.jumbotron::after {
     content: '';
     display: block;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0) );
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
     position: absolute;
     bottom: 0;
-     
 }
-.jumbotron .container{
+
+.jumbotron .container {
     position: relative;
     z-index: 1;
 }
+
 .jumbotron h3 {
     color: snow;
-    font-family:'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     text-transform: capitalize;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
     margin-top: 150px;
 }
-.jumbotron h3 span{
+
+.jumbotron h3 span {
     font-weight: bold;
     color: rgb(0, 159, 233);
 }
 
+
 /* background gird */
-.gird-artikel{
+
+.gird-artikel {
     background-size: cover;
     background: mediumseagreen;
     margin-top: -32px;
     height: 100px;
-    
 }
+
+
 /* Mengatur Area Card */
 
- .container .card{
+.container .card {
     margin: auto;
     margin-top: -56px;
     margin-bottom: 80px !important;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
-    }
-    
-    .card-header{
+}
+
+.card-header {
     text-align: center;
     font-size: 20px;
-    }
-    
-    .card-body{
+}
+
+.card-body {
     background-color: mintcream;
     color: rgb(48, 48, 48);
-    margin: 0 2px 5px 2px ;
-    }
+    margin: 0 2px 5px 2px;
+}
+
 
 /* Info Setting Area*/
-.info{
-background-color:whitesmoke;
-border-top-left-radius: 20px;
-border-top-right-radius: 20px;
 
+.info {
+    background-color: whitesmoke;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
+
+
 /* pengaturan info header */
 
-.info-header{
-background:whitesmoke;
-font-family: 'Viga', sans-serif;
-color: rgb(61, 61, 61);
-text-transform: uppercase;
-text-align: center;
-text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+.info-header {
+    background: whitesmoke;
+    font-family: 'Viga', sans-serif;
+    color: rgb(61, 61, 61);
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
 }
 
+
 /* pengaturan info body pada home/ profil depan*/
-.info-body{
+
+.info-body {
     background-color: white;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-.imgInfo{
-margin-top: 20px;
-margin-bottom: 20px;
-margin-left: 20px;
-margin-right: 10px;
+
+.imgInfo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
 }
-.imgInfo img{
+
+.imgInfo img {
     border: 5px solid rgb(0, 159, 233);
     border-radius: 8px;
     min-width: 20rem;
     margin: auto;
 }
-.keterangan{
-margin: auto;
-background:whitesmoke;
-border-radius: 8px;
 
+.keterangan {
+    margin: auto;
+    background: whitesmoke;
+    border-radius: 8px;
 }
 
-.keterangan p a{
+.keterangan p a {
     border-radius: 25px;
     text-transform: capitalize;
 }
 
+
 /* Pengaturan Area Footer */
-.footer{
+
+.footer {
     position: absolute;
     background: rgb(0, 63, 71);
     height: 300px;
     width: 100%;
     display: flex;
 }
+
+
 /* =============== */
-.footer .profil{
-    margin-top: 40px;
-    margin-bottom: 40px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 700;
-    color: rgb(0, 255, 179);
-    text-transform: uppercase;
-    
-}
-.footer .profil a{
-    color: rgb(2, 255, 171);
-}
-.footer .profil .list-group{
-    text-align: center;
-    color: rgb(0, 204, 255);
-    text-transform: capitalize;
-}
-/* =============== */
-.footer .berita{
+
+.footer .profil {
     margin-top: 40px;
     margin-bottom: 40px;
     text-align: center;
@@ -243,16 +289,44 @@ border-radius: 8px;
     color: rgb(0, 255, 179);
     text-transform: uppercase;
 }
-.footer .berita a{
+
+.footer .profil a {
     color: rgb(2, 255, 171);
 }
-.footer .berita .list-group{
+
+.footer .profil .list-group {
     text-align: center;
     color: rgb(0, 204, 255);
     text-transform: capitalize;
 }
+
+
+/* =============== */
+
+.footer .berita {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(0, 255, 179);
+    text-transform: uppercase;
+}
+
+.footer .berita a {
+    color: rgb(2, 255, 171);
+}
+
+.footer .berita .list-group {
+    text-align: center;
+    color: rgb(0, 204, 255);
+    text-transform: capitalize;
+}
+
+
 /* ================ */
-.footer .contact{
+
+.footer .contact {
     margin-top: 40px;
     margin-bottom: 40px;
     text-align: center;
@@ -261,19 +335,22 @@ border-radius: 8px;
     color: rgb(0, 255, 179);
     text-transform: uppercase;
 }
-.footer .contact a{
+
+.footer .contact a {
     color: rgb(2, 255, 171);
 }
-.footer .contact .list-group{
+
+.footer .contact .list-group {
     text-align: center;
     color: rgb(0, 204, 255);
     text-transform: capitalize;
 }
+
+
 /* <<<<<<<<<<>>>>>>>>>> */
+
 .copyright {
-    position: relative;
-    display: flex;
-    margin-top: 250px;
+    position: fixed;
     color: rgb(9, 132, 255);
     background: rgb(2, 73, 67);
     height: 50px;
@@ -281,27 +358,34 @@ border-radius: 8px;
     font-size: 18px;
     text-transform: capitalize;
 }
+
+
 /* ---=========--- */
 
+
 /* css profil.php area */
+
+
 /* area tentang */
-.tentang{
+
+.tentang {
     justify-content: space-between;
     display: flex;
     background: rgb(33, 33, 48);
     margin: auto;
-    
-}   
-    .tentang-judul h4{
-        font-size: 50px;
-        color: azure;
-        text-transform: uppercase;
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        text-shadow: 1px 1px 2px rgb(255, 255, 255);
-    }
-    .tentang-img img{
+}
+
+.tentang-judul h4 {
+    font-size: 50px;
+    color: azure;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+
+.tentang-img img {
     top: auto;
     margin-bottom: 40px;
     min-width: 25rem;
@@ -310,9 +394,9 @@ border-radius: 8px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     box-shadow: 2px 2px 5px rgba(136, 201, 255, 0.733);
-
 }
-.tentang-txt{
+
+.tentang-txt {
     top: auto;
     background: rgba(155, 190, 255, 0.781);
     color: rgb(43, 43, 43);
@@ -326,22 +410,27 @@ border-radius: 8px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     box-shadow: 2px 2px 5px steelblue;
-    
 }
+
+
 /* css daftar-guru.php */
+
+
 /* area listGuru */
 
-.listGuru{
+.listGuru {
     display: flex;
     justify-content: space-between;
     background: rgb(36, 75, 85);
 }
 
-.list-judul{
+.list-judul {
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.list-judul h2, h3{
+
+.list-judul h2,
+h3 {
     color: rgb(215, 225, 255);
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -349,34 +438,44 @@ border-radius: 8px;
     text-transform: uppercase;
     text-shadow: 1px 1px 2px rgb(8, 239, 255);
 }
-.profil-guru{
+
+.profil-guru {
     display: block;
     margin: auto;
 }
-.list-body{
+
+.list-body {
     background: rgb(136, 217, 255);
     max-width: 20rem;
     border-radius: 15px;
 }
-.list-body img{
+
+.list-body img {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-}    
-.list-text{
+}
+
+.list-text {
     margin: 10px 10px 10px 10px;
 }
 
+
 /* css kontak kami pada profil page */
+
+
 /* area kontak */
-.kontak-area{
+
+.kontak-area {
     background: #0c192b;
 }
-.kontak{
+
+.kontak {
     text-align: center;
     display: flex;
     border-bottom: 3px solid rgb(0, 183, 255);
 }
-.kontak-header h2{
+
+.kontak-header h2 {
     color: rgb(8, 255, 132);
     font-size: 40px;
     font-family: 'Open Sans', sans-serif;
@@ -385,41 +484,48 @@ border-radius: 8px;
     text-shadow: 1px 1px 3px rgb(2, 255, 57);
     margin: 50px 0 50px 0;
 }
-.kontak-body{
-max-width: 15rem;
-margin: auto;
+
+.kontak-body {
+    max-width: 15rem;
+    margin: auto;
 }
-.kontak-body img{
+
+.kontak-body img {
     border: 3px solid #076eff;
     border-radius: 50%;
     box-shadow: 1px 1px 5px 0 #00c3ff;
     margin-bottom: 20px;
 }
-.kontak-teks{
+
+.kontak-teks {
     border: 3px solid rgb(0, 255, 242);
     margin-bottom: 40px;
     border-radius: 25px;
     padding: -5px;
 }
-.kontak-teks h4{
+
+.kontak-teks h4 {
     color: rgb(248, 199, 2);
     margin-top: 10px;
 }
-.kontak-teks p{
+
+.kontak-teks p {
     color: rgb(250, 220, 102);
 }
 
-/* -------==========-------- */
-/* area google maps */
-.peta{
 
-}
-.peta h3{
+/* -------==========-------- */
+
+
+/* area google maps */
+
+.peta h3 {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 .peta .gmap_canvas iframe {
-    justify-content: space-between;  
+    justify-content: space-between;
     display: flex;
     width: 100%;
     height: 767px;
@@ -429,107 +535,183 @@ margin: auto;
 }
 
 
+/* css halaman berita */
+
+
 /* area berita */
+
+.areaBerita {
+    background: #0c192b;
+    display: flex;
+}
+
 .controls-top .btn-floating {
     margin: 0 10px 0 10px;
     border-radius: 50%;
     background: rgb(0, 153, 255);
 }
-.controls-top .btn-floating:hover{
+
+.controls-top .btn-floating:hover {
     background: skyblue;
 }
-.controls-top .btn-floating .fas{
-    padding:3px 10px 3px 10px;
+
+.controls-top .btn-floating .fas {
+    padding: 3px 10px 3px 10px;
     font-size: 24px;
     justify-content: space-between;
 }
 
-/* css halaman berita */
-/* area sidebar */
+.carousel-inner {
+    margin-bottom: 30px;
+}
+
+
+/* area artikel */
+
+
+/* pengaturan artikel */
+
+.artikel {
+    background: #0c192b;
+    display: flex;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+}
+
+.artikelHead {
+    text-align: center;
+    flex: 1;
+    color: aqua;
+    font-size: 80px;
+    margin: 20px 0 20px 0;
+    text-transform: uppercase;
+}
+
+.artikelBody {
+    position: relative;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 174, 255, 0.3), 0 0 40px rgba(0, 217, 255, 0.199) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 140, 255, 0.3), 0 0 40px rgba(0, 204, 255, 0.164) inset;
+    box-shadow: 0 1px 4px rgba(0, 140, 255, 0.3), 0 0 40px rgba(0, 225, 255, 0.178) inset;
+    border-radius: 10px;
+    background: whitesmoke;
+}
+
+.artikelBody:before,
+.artikelBody:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    -webkit-box-shadow: 0 0 20px rgba(0, 81, 255, 0.8);
+    -moz-box-shadow: 0 0 20px rgba(0, 110, 255, 0.8);
+    box-shadow: 0 0 20px rgba(0, 132, 255, 0.8);
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+    -moz-border-radius: 100px / 10px;
+    border-radius: 100px / 10px;
+}
+
+.artikelBody:after {
+    right: 10px;
+    left: auto;
+    -webkit-transform: skew(8deg) rotate(3deg);
+    -moz-transform: skew(8deg) rotate(3deg);
+    -ms-transform: skew(8deg) rotate(3deg);
+    -o-transform: skew(8deg) rotate(3deg);
+    transform: skew(8deg) rotate(3deg);
+}
+
+.artikelBody .container-fluid img {
+    justify-content: center;
+}
+
 
 /* SPESIFIK SMARTPHONE VERSION */
+
+
 /* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) { 
+
+@media (max-width: 767.98px) {
     /* mengatur navbar */
     .navbar {
         background: rgb(100, 113, 124);
     }
     /* mengatur apa yang ada di jumbotron */
-
     .jumbotron h3 {
         font-size: 25px;
         font-weight: 500;
     }
-    .tombol{
+    .tombol {
         margin-top: 25px;
     }
-    .card .container{
+    .card .container {
         margin-bottom: 20px;
     }
- }
+}
 
- /*SPESIFIK TABLET & NOTEBOOK VERSION*/
+
+/*SPESIFIK TABLET & NOTEBOOK VERSION*/
+
+
 /* Medium devices (tablets, 768px and up) */
 
- @media (min-width: 768px) { 
+@media (min-width: 768px) {
     .navbar {
-        background:slategray;
-    } 
+        background: slategray;
+    }
     .jumbotron h3 {
         font-size: 35px;
         font-weight: 500;
     }
-    
-    .jumbotron a{
+    .jumbotron a {
         margin-top: 25px;
-    } 
-
+    }
 }
+
 
 /* DESKTOP VERSION */
- /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-/* Area Pengaturan bagian navbar */
 
-/* mengatur navbar */
-.navbar{
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    /* Area Pengaturan bagian navbar */
+    /* mengatur navbar */
+    .navbar {
         background: transparent;
     }
-
-.navbar-brand, .nav-link {
-    color: cornsilk !important;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
-}
-/* mengatur style font .navbar-nav */
-.navbar-nav{
-    font-family: 'Open Sans' sans-serif;
-    text-transform: uppercase;
+    .navbar-brand,
+    .nav-link {
+        color: cornsilk !important;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
     }
-.nav-link:hover::after{
-    content: '';
-    display: block;
-    border-bottom:  3px solid #3027af ;
-    width: 50%;
-    margin: auto;
-    padding-bottom: 5px;
-    margin-bottom: -8px;
+    /* mengatur style font .navbar-nav */
+    .navbar-nav {
+        font-family: 'Open Sans' sans-serif;
+        text-transform: uppercase;
+    }
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #3027af;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    /* Mengatur Tombol */
+    .tombol {
+        width: auto;
+    }
+    /* Mengatur Apa yang ada di dalam Jumbotron */
+    /* Mengatur jumbotron */
+    .jumbotron {
+        margin-top: -75px;
+        height: 640px;
+    }
+    .jumbotron h3 {
+        font-size: 50px;
+        text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
+    }
 }
-/* Mengatur Tombol */ 
-.tombol{
-    width: auto;
-}
-
-/* Mengatur Apa yang ada di dalam Jumbotron */
-/* Mengatur jumbotron */
-.jumbotron{
-    margin-top: -75px;
-    height: 640px;
-}
-
-.jumbotron h3 {
-    font-size: 50px;
-    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
-}
-
- }
-

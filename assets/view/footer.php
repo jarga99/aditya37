@@ -19,7 +19,7 @@
                       </ul>
                   </div>
                   <div class="listBody contact col">
-                      <a  href=""><span>kontak</span></a>
+                      <a href=""><span>kontak</span></a>
                       <ul class="list-group">
                           <a class="list-group" href="">telephone</a>
                           <a class="list-group" href="">email</a>
