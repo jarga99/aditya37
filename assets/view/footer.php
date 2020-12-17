@@ -32,7 +32,7 @@
       </div>
   </div>
   <div class="copyright">
-      <p>copyright@2020</p>
+      <p><span>copyright@2020</span></p>
   </div>
   <!-- Akhir Area Footer -->
 

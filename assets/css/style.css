@@ -213,7 +213,6 @@ border-radius: 8px;
     height: 300px;
     width: 100%;
     display: flex;
-
 }
 /* =============== */
 .footer .profil{
@@ -230,7 +229,7 @@ border-radius: 8px;
     color: rgb(2, 255, 171);
 }
 .footer .profil .list-group{
-    text-align: start;
+    text-align: center;
     color: rgb(0, 204, 255);
     text-transform: capitalize;
 }
@@ -266,7 +265,7 @@ border-radius: 8px;
     color: rgb(2, 255, 171);
 }
 .footer .contact .list-group{
-    text-align: end;
+    text-align: center;
     color: rgb(0, 204, 255);
     text-transform: capitalize;
 }
@@ -274,13 +273,11 @@ border-radius: 8px;
 .copyright {
     position: relative;
     display: flex;
-    top: 250px;
+    margin-top: 250px;
     color: rgb(9, 132, 255);
     background: rgb(2, 73, 67);
-    justify-content: center;
-    text-align: center;
-    align-items: center;
     height: 50px;
+    justify-content: center;
     font-size: 18px;
     text-transform: capitalize;
 }
@@ -371,11 +368,13 @@ border-radius: 8px;
 
 /* css kontak kami pada profil page */
 /* area kontak */
-.kontak{
+.kontak-area{
     background: #0c192b;
-    display: flex;
+}
+.kontak{
     text-align: center;
-
+    display: flex;
+    border-bottom: 3px solid skyblue;
 }
 .kontak-header h2{
     color: rgb(8, 255, 132);
@@ -408,6 +407,23 @@ margin: auto;
 }
 .kontak-teks p{
     color: rgb(250, 220, 102);
+}
+
+/* -------==========-------- */
+/* area google maps */
+.peta{
+position: relative;
+}
+.peta h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.peta .gmap_canvas iframe {
+    display: flex;
+    height: 767px;
+    border: 3px solid steelblue;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px turquoise;
 }
 
 

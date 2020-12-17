@@ -1,6 +1,6 @@
 <!-- Area Header -->
 <div class="header">
-    <nav class="navbar navbar-expand-lg navbar-light ">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
         <div class="container">
             <a class="navbar-brand " href="./index.php">
                 <img src="assets/img/smp.png" width="40" height="40" alt="">
