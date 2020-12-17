@@ -31,7 +31,7 @@
           </div>
       </div>
   </div>
-  <div class="copyright">
+  <div class="copyright d-flex p-2 fixed-bottom">
       <p><span>copyright@2020</span></p>
   </div>
   <!-- Akhir Area Footer -->
